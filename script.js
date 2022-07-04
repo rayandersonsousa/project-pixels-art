@@ -24,3 +24,16 @@ function paintPixel(event) {
 }
 
 document.addEventListener('click', paintPixel);
+
+function clearBoard() {
+  const buttonClear = document.querySelector('#clear-board');
+
+  buttonClear.addEventListener('click', function() {
+    const boardColor = document.querySelectorAll('.pixel');
+    boardColor.forEach((pixColor) => { 
+      pixColor.style.backgroundColor = 'white';
+    });
+  });
+}
+
+clearBoard();

@@ -8,20 +8,21 @@
 
 #color-palette {
   display: flex;
-  height: 50px;
-  margin-left: 40%;
+  height: 55px;
+  margin-left: 39%;
 }
 
 .color {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border: 1px solid black;
 }
 
 #pixel-board {
   display: table;
   margin-left: 38%;
+  margin-top: 3%;
 }
 
 .board-row {
@@ -34,4 +35,10 @@
   width: 40px;
   height: 40px;
   border: 1px solid black;
+}
+
+#clear-board {
+  display: flex;
+  margin-left: 43%;
+  margin-top: -18%;
 }
