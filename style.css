@@ -1,3 +1,17 @@
+#title {
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-left: 33%;
+}
+
+#color-palette {
+  display: flex;
+  height: 50px;
+  margin-left: 40%;
+}
+
 .color {
   display: inline-block;
   width: 40px;
@@ -7,6 +21,7 @@
 
 #pixel-board {
   display: table;
+  margin-left: 38%;
 }
 
 .board-row {
