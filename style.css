@@ -1,0 +1,18 @@
+.color {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+#pixel-board {
+  display: table;
+}
+
+.board-row {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+}
